@@ -1,0 +1,7 @@
+# Custom Suricata rules for this lab.
+# SIDs use the 1000000+ local range. Every rule needs a line in docs/validation.md
+# before it is considered done.
+
+# Example structure — replace with real rules as they are written and validated.
+# alert dns $HOME_NET any -> any any (msg:"IoT VLAN device querying non-local resolver"; \
+#   sid:1000001; rev:1;)

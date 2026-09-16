@@ -1,0 +1,12 @@
+# Never commit raw config exports or captures — sanitize by hand first
+*.pcap
+*.pcapng
+config-*.xml
+*.key
+*.pem
+*.crt
+*.p12
+eve.json
+suricata.log
+*.bak
+.DS_Store
